@@ -18,10 +18,10 @@ class Block extends React.Component{
           <div className="date">{date}</div>
           <div className="description">{IMG[description]}</div>
           <div className="temperature">
-            <span className="min">{minTemperature}</span>
-            <span className="max">{maxTemperature}</span>
+            <span className="min">{minTemperature} °C</span>
+            <span className="max">{maxTemperature} °C</span>
           </div>
-          <div className="pressure">Pressure{IMG["Pressure"]}: <br /> {pressure} mbar</div>
+          <div className="pressure">{IMG["Pressure"]}Pressure: <br /> {pressure} mbar</div>
           <div className="humidity">Humidity: {humidity}%</div>
           <div className="progress" style={{width:`${humidity/1.1}%`}}></div>
           <div className="wind">Wind: {velocity} m/s {IMG[direction]}</div>

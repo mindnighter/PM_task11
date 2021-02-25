@@ -24,6 +24,10 @@ svg{
   padding: 15px 0;
 }
 
+.description{
+  height: 90px;
+}
+
 .day{
   padding-bottom: 5px;
   font-weight: bold;
@@ -51,7 +55,7 @@ svg{
   line-height: 1.5;
 }
 .pressure__img{
-  margin: 0 7px;
+  margin-right:12px;
 }
 
 .humidity{
