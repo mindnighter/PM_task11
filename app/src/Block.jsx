@@ -26,9 +26,7 @@ class Block extends React.Component{
           <div className="progress" style={{width:`${humidity/1.1}%`}}></div>
           <div className="wind">Wind: {velocity} m/s {IMG[direction]}</div>
         </div>
-    );}
-    
+    );} 
 }
-//const directions = ["North","North-east","East","South-east","South","South-west","West","North-west"];
-//const descriptions = ["Sunny","Cloudy","Cloudy-Sunny","Rain","Snowy","Snowy-Wet","Windy"];
+
 export default Block;
